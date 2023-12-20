@@ -1,7 +1,8 @@
-#include<iostream.h>
+#include<iostream>
+using namespace std;
 int add(int, int);        //first prototype
 int add(int, int, int);   //second prototype
-void main()
+int main()
 {
 int x,y;
 x=add(10,20);  //matches first prototype
