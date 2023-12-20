@@ -1,0 +1,24 @@
+#include<iostream.h>
+using namespace std;
+class Distance
+{
+  int iFeet;    //private by default      
+  float finches;  //private by default    
+public:
+  void setFeet(int x)
+  {
+  iFeet=x;
+  }
+  int getFeet()
+  {
+  return iFeet;
+  }
+  void setInches(float y)
+  {
+  finches=y;
+  }
+  float getInches()
+  {
+  return finches;
+  }
+}
