@@ -1,0 +1,18 @@
+#include<iostream.h>
+int add(int, int);        //first prototype
+int add(int, int, int);   //second prototype
+void main()
+{
+int x,y;
+x=add(10,20);  //matches first prototype
+y=add(30, 40, 50);  //matches secong property
+cout<<x<<endl<<y<<endl;
+}
+int add(int a, int b)
+{
+return(a+b);
+}
+int add(int a, int b, int c)
+{
+return(a+b+c);
+}
